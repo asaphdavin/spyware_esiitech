@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberSec Hub - Portail cybersécurité</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container header-inner">
+      <div class="logo">
+        <div class="logo-icon"></div>
+        <div class="logo-text">CyberSec<span>Hub</span></div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Accueil</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+          <li><a href="logiciels.html">Téléchargements</a></li>
+          <li><a href="ressources.html">Ressources</a></li>
+          <li><a href="contact.html">Contact / A propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div>
+        <h1 class="hero-title">
+          Toute l’<span>actualité cybersécurité</span> et vos outils au même endroit.
+        </h1>
+        <p class="hero-subtitle">
+          Articles, alertes, logiciels et ressources pour apprendre et pratiquer la cybersécurité.
+          Télécharge tes outils, suis nos news et reste toujours informé.
+        </p>
+        <div class="hero-actions">
+          <a href="logiciels.html" class="btn btn-primary">Télécharger des logiciels</a>
+          <a href="actualites.html" class="btn btn-outline">Voir les dernières actualités</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number">+25</div>
+            <div>Logiciels référencés</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">+40</div>
+            <div>Articles publiés</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">24/7</div>
+            <div>Veille sécurité</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual"></div>
+    </div>
+  </section>
+
+  <!-- BLOC ACTUALITES -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Dernières actualités</h2>
+      <p class="section-subtitle">
+        Un aperçu rapide des dernières news cybersécurité. Retrouve tous les détails dans la page
+        <strong>Actualités</strong>.
+      </p>
+
+      <div class="grid grid-3">
+        <article class="card">
+          <div class="card-badge">ALERTE</div>
+          <h3 class="card-title">Nouvelle campagne de phishing ciblant les comptes cloud</h3>
+          <p class="card-meta">Publié le 14/11/2025 • Par Équipe CyberSec</p>
+          <p class="card-text">
+            Des emails frauduleux imitant des fournisseurs cloud demandent la validation urgente du compte.
+            On t’explique comment les reconnaître et s’en protéger.
+          </p>
+          <a href="actualites.html" class="card-link">Lire l’article complet</a>
+        </article>
+
+        <article class="card">
+          <div class="card-badge">VULNÉRABILITÉ</div>
+          <h3 class="card-title">Failles critiques sur plusieurs routeurs domestiques</h3>
+          <p class="card-meta">Publié le 12/11/2025 • Par Équipe CyberSec</p>
+          <p class="card-text">
+            Plusieurs modèles utilisés à domicile sont vulnérables à une prise de contrôle à distance.
+            Vérifie si ton équipement est concerné.
+          </p>
+          <a href="actualites.html" class="card-link">Voir les modèles impactés</a>
+        </article>
+
+        <article class="card">
+          <div class="card-badge">TUTORIEL</div>
+          <h3 class="card-title">Démarrer avec Kali Linux pour les tests de sécurité</h3>
+          <p class="card-meta">Publié le 10/11/2025 • Par Équipe CyberSec</p>
+          <p class="card-text">
+            Une introduction pour installer Kali dans une machine virtuelle et utiliser les premiers outils
+            sans mettre en danger ton système.
+          </p>
+          <a href="ressources.html" class="card-link">Voir le tutoriel</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- BLOC LOGICIELS POPULAIRES -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Logiciels populaires</h2>
+      <p class="section-subtitle">
+        Quelques outils incontournables pour analyser ton réseau, tester la sécurité d’une application
+        ou capturer le trafic.
+      </p>
+
+      <div class="table-wrapper card">
+        <table class="download-table">
+          <thead>
+            <tr>
+              <th>Logiciel</th>
+              <th>Catégorie</th>
+              <th>OS</th>
+              <th>Version</th>
+              <th>Télécharger</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Wireshark</td>
+              <td>Analyse réseau</td>
+              <td>Windows / Linux / macOS</td>
+              <td>4.2</td>
+              <td>
+                <a class="card-link" href="https://www.wireshark.org/download.html" target="_blank">
+                  Télécharger
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Nmap</td>
+              <td>Scan de ports</td>
+              <td>Windows / Linux / macOS</td>
+              <td>7.95</td>
+              <td>
+                <a class="card-link" href="https://nmap.org/download.html" target="_blank">
+                  Télécharger
+                </a>
+              </td>
+            </tr>
+            <tr>
+              <td>Burp Suite Community</td>
+              <td>Test applications web</td>
+              <td>Windows / Linux / macOS</td>
+              <td>Dernière</td>
+              <td>
+                <a class="card-link" href="https://portswigger.net/burp/communitydownload" target="_blank">
+                  Télécharger
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="margin-top: 0.8rem; font-size: 0.85rem; color: #9ba0bf;">
+        ➜ Plus d’outils et de liens dans la page <a href="logiciels.html" class="card-link">Téléchargements</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>© 2025 CyberSecHub — Portail d’actualités et ressources cybersécurité.</div>
+      <div class="footer-links">
+        <a href="contact.html">Mentions légales</a>
+        <a href="contact.html">Confidentialité</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
