@@ -11,8 +11,6 @@
   <!-- HEADER -->
   <header>
     <div class="container header-inner">
-      
-      <!-- Titre principal sans logo -->
       <div class="logo-text" style="font-weight: 700; letter-spacing: 1px; font-size: 1.1rem;">
         <span style="color:#00ffb3;">ESIITECH-SEC</span> • CyberDéfense
       </div>
@@ -29,14 +27,23 @@
     </div>
   </header>
 
-  <!-- BOUTON TÉLÉCHARGEMENT LOGICIEL ESIITECH-SEC -->
+  <!-- 2 BOUTONS TÉLÉCHARGEMENT LOGICIELS -->
   <section class="section" style="padding-top: 1.2rem; padding-bottom: 0;">
     <div class="container" style="text-align: center;">
-      <a href="logiciel-esiitech-sec.exe" class="btn btn-primary" style="margin-bottom: 0.5rem;">
-        🔽 Télécharger le logiciel officiel ESIITECH-SEC
+
+      <!-- Logiciel Windows -->
+      <a href="logiciel-esiitech-sec.exe" class="btn btn-primary" style="margin-bottom: 0.5rem; display:inline-block;">
+        💻 Télécharger le logiciel Windows (.exe)
       </a>
+
+      <!-- Application Android -->
+      <a href="app-esiitech-sec.apk" class="btn btn-outline" style="margin-bottom: 0.5rem; display:inline-block;">
+        📱 Télécharger l'application Android (.apk)
+      </a>
+
       <p style="font-size: 0.85rem; color: #9ba0bf; margin-top: 0.3rem;">
-        ➜ Place ton fichier (ex : <strong>logiciel-esiitech-sec.exe</strong>) dans le même dossier que cette page.
+        ➜ Place les fichiers <strong>.exe</strong> et <strong>.apk</strong> dans le même dossier que cette page.  
+        Remplace juste les noms par les tiens.
       </p>
     </div>
   </section>
@@ -49,9 +56,10 @@
           Le portail <span>CyberDéfense</span> d’ESIITECH-SEC.
         </h1>
         <p class="hero-subtitle">
-          Actualités cybersécurité, outils de test, ressources pédagogiques, logiciels, et informations
+          Actualités cybersécurité, outils de test, ressources pédagogiques, logiciels et informations
           essentielles pour les étudiants de la filière Cybersécurité.
         </p>
+
         <div class="hero-actions">
           <a href="logiciels.html" class="btn btn-primary">Voir tous les logiciels</a>
           <a href="actualites.html" class="btn btn-outline">Actualités Cyber</a>
@@ -60,7 +68,7 @@
         <div class="hero-stats">
           <div class="stat-item">
             <div class="stat-number">+15</div>
-            <div>Outils de CyberDéfense</div>
+            <div>Outils CyberDéfense</div>
           </div>
           <div class="stat-item">
             <div class="stat-number">+25</div>
@@ -89,32 +97,31 @@
 
         <article class="card">
           <div class="card-badge">ALERTE</div>
-          <h3 class="card-title">Nouvelle vague d’attaques par phishing ciblant les étudiants</h3>
-          <p class="card-meta">Publié le 14/11/2025 • ESIITECH-SEC</p>
+          <h3 class="card-title">Phishing ciblant les étudiants ESIITECH</h3>
+          <p class="card-meta">14/11/2025 • ESIITECH-SEC</p>
           <p class="card-text">
-            Plusieurs faux mails imitant des plateformes universitaires circulent. Ne cliquez jamais sur un lien
-            suspect. Utilisez toujours les liens officiels de l’école.
+            Un faux portail d’authentification ESIITECH circule. Vérifiez toujours l’URL et ne partagez jamais
+            votre mot de passe.
           </p>
           <a href="actualites.html" class="card-link">Lire plus</a>
         </article>
 
         <article class="card">
           <div class="card-badge">VULNÉRABILITÉ</div>
-          <h3 class="card-title">Faille critique sur un logiciel utilisé en TP</h3>
-          <p class="card-meta">Publié le 12/11/2025 • ESIITECH-SEC</p>
+          <h3 class="card-title">Mise à jour urgente recommandée</h3>
+          <p class="card-meta">12/11/2025 • ESIITECH-SEC</p>
           <p class="card-text">
-            Une mise à jour urgente est recommandée pour corriger une vulnérabilité d’exécution de code à distance.
+            Une faille ayant un score CVE élevé a été détectée dans un outil utilisé en TP Cyber.
           </p>
           <a href="actualites.html" class="card-link">Voir les détails</a>
         </article>
 
         <article class="card">
           <div class="card-badge">FORMATION</div>
-          <h3 class="card-title">Atelier "Sécurité Réseau & Analyse"</h3>
-          <p class="card-meta">Publié le 10/11/2025 • ESIITECH-SEC</p>
+          <h3 class="card-title">Atelier "Capture & Analyse réseau"</h3>
+          <p class="card-meta">10/11/2025 • ESIITECH-SEC</p>
           <p class="card-text">
-            Un atelier pratique sur Wireshark et Nmap pour comprendre les communications réseau et détecter
-            des anomalies.
+            Atelier complet sur les outils Wireshark, Nmap et Netcat pour l’analyse de trafic.
           </p>
           <a href="ressources.html" class="card-link">Voir les supports</a>
         </article>
@@ -123,13 +130,11 @@
     </div>
   </section>
 
-  <!-- LOGICIELS POPULAIRES -->
+  <!-- LOGICIELS -->
   <section class="section">
     <div class="container">
       <h2 class="section-title">Outils essentiels pour ESIITECH-SEC</h2>
-      <p class="section-subtitle">
-        Logiciels recommandés pour les travaux pratiques de cybersécurité, réseaux, forensic et tests d’intrusion.
-      </p>
+      <p class="section-subtitle">Outils nécessaires pour les TP, analyses réseaux et tests.</p>
 
       <div class="table-wrapper card">
         <table class="download-table">
@@ -149,23 +154,23 @@
               <td>Analyse réseau</td>
               <td>Win / Linux / macOS</td>
               <td>4.2</td>
-              <td><a class="card-link" href="https://www.wireshark.org/download.html" target="_blank">Télécharger</a></td>
+              <td><a class="card-link" href="https://www.wireshark.org/download.html" target="_blank">Lien officiel</a></td>
             </tr>
 
             <tr>
               <td>Nmap</td>
-              <td>Scan de ports</td>
+              <td>Scan & audit réseau</td>
               <td>Win / Linux / macOS</td>
               <td>7.95</td>
-              <td><a class="card-link" href="https://nmap.org/download.html" target="_blank">Télécharger</a></td>
+              <td><a class="card-link" href="https://nmap.org/download.html" target="_blank">Lien officiel</a></td>
             </tr>
 
             <tr>
-              <td>Burp Suite Community</td>
-              <td>Test applications web</td>
+              <td>Burp Suite</td>
+              <td>Test appli web</td>
               <td>Win / Linux / macOS</td>
-              <td>Dernière</td>
-              <td><a class="card-link" href="https://portswigger.net/burp/communitydownload" target="_blank">Télécharger</a></td>
+              <td>2025</td>
+              <td><a class="card-link" href="https://portswigger.net/burp" target="_blank">Lien officiel</a></td>
             </tr>
 
           </tbody>
@@ -173,7 +178,7 @@
       </div>
 
       <p style="margin-top: 0.8rem; font-size: 0.85rem; color: #9ba0bf;">
-        ➜ Tous les outils sont disponibles dans la page <a href="logiciels.html" class="card-link">Téléchargements</a>.
+        ➜ Tous les outils : <a href="logiciels.html" class="card-link">Page Téléchargements</a>.
       </p>
 
     </div>
