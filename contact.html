@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & à propos - CyberSecHub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <div class="logo">
+        <div class="logo-icon"></div>
+        <div class="logo-text">CyberSec<span>Hub</span></div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="actualites.html">Actualités</a></li>
+          <li><a href="logiciels.html">Téléchargements</a></li>
+          <li><a href="ressources.html">Ressources</a></li>
+          <li><a href="contact.html" class="active">Contact / A propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h1 class="section-title">Contact & à propos</h1>
+      <p class="section-subtitle">
+        Une question, une suggestion d’article, envie de proposer un logiciel ou un tutoriel ?
+        Tu peux nous écrire avec le formulaire ci-dessous.
+      </p>
+
+      <div class="form-grid">
+        <div>
+          <form>
+            <div>
+              <label for="nom">Nom / Pseudo</label>
+              <input type="text" id="nom" name="nom" placeholder="Ton nom ou pseudo" />
+            </div>
+            <div>
+              <label for="email">Adresse email</label>
+              <input type="email" id="email" name="email" placeholder="ton.email@example.com" />
+            </div>
+            <div>
+              <label for="sujet">Sujet</label>
+              <input type="text" id="sujet" name="sujet" placeholder="Ex : Proposer un article, bug sur le site…" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Écris ton message ici…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer (maquette HTML)</button>
+          </form>
+          <p style="margin-top: 0.75rem; font-size: 0.8rem; color: #9ba0bf;">
+            Pour rendre ce formulaire fonctionnel, il faudra plus tard ajouter du PHP ou un backend
+            (mais pour l’instant, il reste en <strong>HTML/CSS uniquement</strong> comme demandé).
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card-badge">À PROPOS</div>
+          <h2 class="card-title">Qu’est-ce que CyberSecHub ?</h2>
+          <p class="card-text">
+            CyberSecHub est un portail non officiel dédié à la vulgarisation de la cybersécurité. L’objectif
+            est de proposer :
+          </p>
+          <ul style="font-size: 0.9rem; margin-left: 1rem; margin-top: 0.5rem; color: #d0d4e4;">
+            <li>Des actualités simples à comprendre</li>
+            <li>Des liens de téléchargement vers des outils bien connus</li>
+            <li>Des ressources pour apprendre étape par étape</li>
+          </ul>
+          <p class="card-text" style="margin-top: 0.75rem;">
+            Tu peux adapter ce texte pour parler de ton projet, ton école, ton agence, ton pseudo, etc.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div>© 2025 CyberSecHub — Contact & à propos.</div>
+      <div class="footer-links">
+        <a href="index.html">Accueil</a>
+        <a href="actualites.html">Actualités</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
