@@ -3,57 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CyberSec Hub - Portail cybersécurité</title>
+  <title>ESIITECH-SEC - Portail CyberDéfense</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <!-- HEADER -->
   <header>
     <div class="container header-inner">
-      <div class="logo">
-        <div class="logo-icon"></div>
-        <div class="logo-text">Esiitech<span>Sec</span></div>
+      
+      <!-- Titre principal sans logo -->
+      <div class="logo-text" style="font-weight: 700; letter-spacing: 1px; font-size: 1.1rem;">
+        <span style="color:#00ffb3;">ESIITECH-SEC</span> • CyberDéfense
       </div>
+
       <nav>
         <ul>
           <li><a href="index.html" class="active">Accueil</a></li>
           <li><a href="actualites.html">Actualités</a></li>
           <li><a href="logiciels.html">Téléchargements</a></li>
           <li><a href="ressources.html">Ressources</a></li>
-          <li><a href="contact.html">Contact / A propos</a></li>
+          <li><a href="contact.html">Contact / À propos</a></li>
         </ul>
       </nav>
     </div>
   </header>
+
+  <!-- BOUTON TÉLÉCHARGEMENT LOGICIEL ESIITECH-SEC -->
+  <section class="section" style="padding-top: 1.2rem; padding-bottom: 0;">
+    <div class="container" style="text-align: center;">
+      <a href="logiciel-esiitech-sec.exe" class="btn btn-primary" style="margin-bottom: 0.5rem;">
+        🔽 Télécharger le logiciel officiel ESIITECH-SEC
+      </a>
+      <p style="font-size: 0.85rem; color: #9ba0bf; margin-top: 0.3rem;">
+        ➜ Place ton fichier (ex : <strong>logiciel-esiitech-sec.exe</strong>) dans le même dossier que cette page.
+      </p>
+    </div>
+  </section>
 
   <!-- HERO -->
   <section class="hero">
     <div class="hero-inner">
       <div>
         <h1 class="hero-title">
-          Toute l’<span>actualité cybersécurité</span> et vos outils au même endroit.
+          Le portail <span>CyberDéfense</span> d’ESIITECH-SEC.
         </h1>
         <p class="hero-subtitle">
-          Articles, alertes, logiciels et ressources pour apprendre et pratiquer la cybersécurité.
-          Télécharge tes outils, suis nos news et reste toujours informé.
+          Actualités cybersécurité, outils de test, ressources pédagogiques, logiciels, et informations
+          essentielles pour les étudiants de la filière Cybersécurité.
         </p>
         <div class="hero-actions">
-          <a href="logiciels.html" class="btn btn-primary">Télécharger des logiciels</a>
-          <a href="actualites.html" class="btn btn-outline">Voir les dernières actualités</a>
+          <a href="logiciels.html" class="btn btn-primary">Voir tous les logiciels</a>
+          <a href="actualites.html" class="btn btn-outline">Actualités Cyber</a>
         </div>
 
         <div class="hero-stats">
           <div class="stat-item">
+            <div class="stat-number">+15</div>
+            <div>Outils de CyberDéfense</div>
+          </div>
+          <div class="stat-item">
             <div class="stat-number">+25</div>
-            <div>Logiciels référencés</div>
+            <div>Ressources & Tutos</div>
           </div>
           <div class="stat-item">
-            <div class="stat-number">+40</div>
-            <div>Articles publiés</div>
-          </div>
-          <div class="stat-item">
-            <div class="stat-number">24/7</div>
-            <div>Veille sécurité</div>
+            <div class="stat-number">ESIITECH</div>
+            <div>Filière CyberDéfense</div>
           </div>
         </div>
       </div>
@@ -62,59 +77,58 @@
     </div>
   </section>
 
-  <!-- BLOC ACTUALITES -->
+  <!-- ACTUALITÉS -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">Dernières actualités</h2>
+      <h2 class="section-title">Dernières actualités Cyber</h2>
       <p class="section-subtitle">
-        Un aperçu rapide des dernières news cybersécurité. Retrouve tous les détails dans la page
-        <strong>Actualités</strong>.
+        Aperçu des dernières alertes, vulnérabilités, annonces et événements ESIITECH-SEC.
       </p>
 
       <div class="grid grid-3">
+
         <article class="card">
           <div class="card-badge">ALERTE</div>
-          <h3 class="card-title">Nouvelle campagne de phishing ciblant les comptes cloud</h3>
-          <p class="card-meta">Publié le 14/11/2025 • Par Équipe CyberSec</p>
+          <h3 class="card-title">Nouvelle vague d’attaques par phishing ciblant les étudiants</h3>
+          <p class="card-meta">Publié le 14/11/2025 • ESIITECH-SEC</p>
           <p class="card-text">
-            Des emails frauduleux imitant des fournisseurs cloud demandent la validation urgente du compte.
-            On t’explique comment les reconnaître et s’en protéger.
+            Plusieurs faux mails imitant des plateformes universitaires circulent. Ne cliquez jamais sur un lien
+            suspect. Utilisez toujours les liens officiels de l’école.
           </p>
-          <a href="actualites.html" class="card-link">Lire l’article complet</a>
+          <a href="actualites.html" class="card-link">Lire plus</a>
         </article>
 
         <article class="card">
           <div class="card-badge">VULNÉRABILITÉ</div>
-          <h3 class="card-title">Failles critiques sur plusieurs routeurs domestiques</h3>
-          <p class="card-meta">Publié le 12/11/2025 • Par Équipe CyberSec</p>
+          <h3 class="card-title">Faille critique sur un logiciel utilisé en TP</h3>
+          <p class="card-meta">Publié le 12/11/2025 • ESIITECH-SEC</p>
           <p class="card-text">
-            Plusieurs modèles utilisés à domicile sont vulnérables à une prise de contrôle à distance.
-            Vérifie si ton équipement est concerné.
+            Une mise à jour urgente est recommandée pour corriger une vulnérabilité d’exécution de code à distance.
           </p>
-          <a href="actualites.html" class="card-link">Voir les modèles impactés</a>
+          <a href="actualites.html" class="card-link">Voir les détails</a>
         </article>
 
         <article class="card">
-          <div class="card-badge">TUTORIEL</div>
-          <h3 class="card-title">Démarrer avec Kali Linux pour les tests de sécurité</h3>
-          <p class="card-meta">Publié le 10/11/2025 • Par Équipe CyberSec</p>
+          <div class="card-badge">FORMATION</div>
+          <h3 class="card-title">Atelier "Sécurité Réseau & Analyse"</h3>
+          <p class="card-meta">Publié le 10/11/2025 • ESIITECH-SEC</p>
           <p class="card-text">
-            Une introduction pour installer Kali dans une machine virtuelle et utiliser les premiers outils
-            sans mettre en danger ton système.
+            Un atelier pratique sur Wireshark et Nmap pour comprendre les communications réseau et détecter
+            des anomalies.
           </p>
-          <a href="ressources.html" class="card-link">Voir le tutoriel</a>
+          <a href="ressources.html" class="card-link">Voir les supports</a>
         </article>
+
       </div>
     </div>
   </section>
 
-  <!-- BLOC LOGICIELS POPULAIRES -->
+  <!-- LOGICIELS POPULAIRES -->
   <section class="section">
     <div class="container">
-      <h2 class="section-title">Logiciels populaires</h2>
+      <h2 class="section-title">Outils essentiels pour ESIITECH-SEC</h2>
       <p class="section-subtitle">
-        Quelques outils incontournables pour analyser ton réseau, tester la sécurité d’une application
-        ou capturer le trafic.
+        Logiciels recommandés pour les travaux pratiques de cybersécurité, réseaux, forensic et tests d’intrusion.
       </p>
 
       <div class="table-wrapper card">
@@ -128,54 +142,47 @@
               <th>Télécharger</th>
             </tr>
           </thead>
+
           <tbody>
             <tr>
               <td>Wireshark</td>
               <td>Analyse réseau</td>
-              <td>Windows / Linux / macOS</td>
+              <td>Win / Linux / macOS</td>
               <td>4.2</td>
-              <td>
-                <a class="card-link" href="https://www.wireshark.org/download.html" target="_blank">
-                  Télécharger
-                </a>
-              </td>
+              <td><a class="card-link" href="https://www.wireshark.org/download.html" target="_blank">Télécharger</a></td>
             </tr>
+
             <tr>
               <td>Nmap</td>
               <td>Scan de ports</td>
-              <td>Windows / Linux / macOS</td>
+              <td>Win / Linux / macOS</td>
               <td>7.95</td>
-              <td>
-                <a class="card-link" href="https://nmap.org/download.html" target="_blank">
-                  Télécharger
-                </a>
-              </td>
+              <td><a class="card-link" href="https://nmap.org/download.html" target="_blank">Télécharger</a></td>
             </tr>
+
             <tr>
               <td>Burp Suite Community</td>
               <td>Test applications web</td>
-              <td>Windows / Linux / macOS</td>
+              <td>Win / Linux / macOS</td>
               <td>Dernière</td>
-              <td>
-                <a class="card-link" href="https://portswigger.net/burp/communitydownload" target="_blank">
-                  Télécharger
-                </a>
-              </td>
+              <td><a class="card-link" href="https://portswigger.net/burp/communitydownload" target="_blank">Télécharger</a></td>
             </tr>
+
           </tbody>
         </table>
       </div>
 
       <p style="margin-top: 0.8rem; font-size: 0.85rem; color: #9ba0bf;">
-        ➜ Plus d’outils et de liens dans la page <a href="logiciels.html" class="card-link">Téléchargements</a>.
+        ➜ Tous les outils sont disponibles dans la page <a href="logiciels.html" class="card-link">Téléchargements</a>.
       </p>
+
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer>
     <div class="footer-inner">
-      <div>Portail d’actualités et ressources cybersécurité.</div>
+      <div>© 2025 ESIITECH-SEC — Portail CyberDéfense.</div>
       <div class="footer-links">
         <a href="contact.html">Mentions légales</a>
         <a href="contact.html">Confidentialité</a>
@@ -183,6 +190,6 @@
       </div>
     </div>
   </footer>
+
 </body>
 </html>
-
